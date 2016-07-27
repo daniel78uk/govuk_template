@@ -37,22 +37,16 @@ img { max-width: 100% !important; }
 select { background: white; }
 
 #global-header {
-  color: #000;
-  font-weight: bold;
-  font-size: 24px;
   margin-bottom: 1em;
 
   #logo {
-    @include core-48;
-    font-size: 28pt;
-    font-weight: bold;
+    @include bold-80;
     text-rendering: optimizeLegibility;
 
     img {
       width: 46px;
       height: 40px;
       margin-right: 6px;
-      display: block;
       float: left;
     }
   }
